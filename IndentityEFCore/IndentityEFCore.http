@@ -1,0 +1,6 @@
+@IndentityEFCore_HostAddress = http://localhost:5079
+
+GET {{IndentityEFCore_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

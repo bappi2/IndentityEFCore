@@ -1,0 +1,6 @@
+﻿services:
+  indentityefcore:
+    image: indentityefcore
+    build:
+      context: .
+      dockerfile: IndentityEFCore/Dockerfile
