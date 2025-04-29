@@ -4,3 +4,9 @@
     build:
       context: .
       dockerfile: IndentityEFCore/Dockerfile
+
+  service:
+    image: service
+    build:
+      context: .
+      dockerfile: Service/Dockerfile
